@@ -1,3 +1,7 @@
+---
+title: index
+comments: true
+---
 # 市立大町総合病院　感染症フォーミュラリー  
 Infectious Diseases Formulary
 
@@ -112,19 +116,3 @@ Infectious Diseases Formulary
 感染症内科　笹澤裕樹（PHS　3772）
 
 ---
-
-<script src="https://giscus.app/client.js"
-        data-repo="hsas-23/Formulary"
-        data-repo-id="R_kgDORzhnbQ"
-        data-category="General"
-        data-category-id="DIC_kwDORzhnbc4C5k1P"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="ja"
-        crossorigin="anonymous"
-        async>
-</script>
