@@ -1,3 +1,8 @@
+---
+comments: true
+feedback_form: true
+---
+
 # スペクトラム一覧（Spectrum）
 
 ---

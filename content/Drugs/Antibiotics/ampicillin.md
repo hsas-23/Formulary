@@ -43,7 +43,13 @@ notes_short:
   - Listeria monocytogenesの第一選択
   - βラクタマーゼ産生菌には無効
 links:
-  references: [Sanford2025, UpToDate]
+  references:
+    - Sanford2025
+    - UpToDate
+    - JohnsHopkinsABxGuide
+comments: true
+feedback_form: true
+---
 ---
 
 ### アンピシリン：ABPC：ビクシリン®

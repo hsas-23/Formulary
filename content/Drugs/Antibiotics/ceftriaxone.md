@@ -48,7 +48,12 @@ notes_short:
   - 腎機能調整不要（原則）
   - 胆泥形成に注意
 links:
-  references: [Sanford2025, UpToDate]
+  references:
+    - Sanford2025
+    - UpToDate
+    - JohnsHopkinsABxGuide
+comments: true
+feedback_form: true
 ---
 
 【抗菌薬まとめ】セフトリアキソン

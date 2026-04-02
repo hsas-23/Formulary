@@ -41,6 +41,8 @@ links:
     - UpToDate
     - JohnsHopkinsABxGuide
     - IDSA2016Candidiasis
+comments: true
+feedback_form: true
 ---
 
 ### **ミカファンギン：MCFG：ファンガード®**

@@ -1,3 +1,8 @@
+---
+comments: true
+feedback_form: true
+---
+
 # 抗菌薬一覧（Antibiotics）
 
 ---

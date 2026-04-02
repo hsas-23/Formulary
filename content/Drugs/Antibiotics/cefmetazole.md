@@ -48,6 +48,8 @@ links:
   references:
     - Sanford2025
     - JohnsHopkinsABxGuide
+comments: true
+feedback_form: true
 ---
 
 【抗菌薬まとめ】セフメタゾール

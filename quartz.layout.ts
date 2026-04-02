@@ -1,13 +1,15 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import Comments from "./quartz/components/Comments"
+import FeedbackForm from "./quartz/components/FeedbackForm"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
-    Comments(), // ← ★ここ追加
+    Comments(),
+    FeedbackForm(),
   ],
   footer: Component.Footer({
     links: {

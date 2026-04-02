@@ -41,9 +41,11 @@ notes_short:
   - 嫌気性菌カバーなし
 links:
   references:
-    - SanfordGuide
+    - Sanford2025
     - UpToDate
-    - JohnsHopkinsABXGuide
+    - JohnsHopkinsABxGuide
+comments: true
+feedback_form: true
 ---
 
 【抗菌薬まとめ】セファゾリン

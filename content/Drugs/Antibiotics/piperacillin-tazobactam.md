@@ -42,7 +42,12 @@ notes_short:
   - Extended infusion推奨
   - ESBL感染ではカルバペネム優先
 links:
-  references: [Sanford2025, UpToDate, Hopkins]
+  references:
+    - Sanford2025
+    - UpToDate
+    - JohnsHopkinsABxGuide
+comments: true
+feedback_form: true
 ---
 
 【抗菌薬まとめ】ピペラシリン・タゾバクタム

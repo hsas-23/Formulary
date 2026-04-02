@@ -1,6 +1,7 @@
 ---
 title: index
 comments: true
+feedback_form: true
 ---
 # 市立大町総合病院　感染症フォーミュラリー  
 Infectious Diseases Formulary

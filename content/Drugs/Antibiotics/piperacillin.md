@@ -39,6 +39,8 @@ links:
     - Sanford2025
     - UpToDate
     - JohnsHopkinsABxGuide
+comments: true
+feedback_form: true
 ---
 
 【抗菌薬まとめ】ピペラシリン

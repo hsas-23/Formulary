@@ -47,6 +47,8 @@ links:
     - Sanford2025
     - UpToDate
     - ASHP_IDSA_PIDS_SIDP_2020
+comments: true
+feedback_form: true
 ---
 【抗菌薬まとめ】バンコマイシン（静注用）
 

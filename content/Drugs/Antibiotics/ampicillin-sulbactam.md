@@ -49,7 +49,12 @@ notes_short:
   - 緑膿菌には無効
   - AmpC・ESBL産生菌には無効
 links:
-  references: [Sanford2025, UpToDate]
+  references:
+    - Sanford2025
+    - UpToDate
+    - JohnsHopkinsABxGuide
+comments: true
+feedback_form: true
 ---
 
 ### アンピシリン・スルバクタム：ABPC/SBT：ユナスピン®

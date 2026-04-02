@@ -46,6 +46,8 @@ links:
     - UpToDate
     - JohnsHopkinsABxGuide
     - JAID_JSC_guideline
+comments: true
+feedback_form: true
 ---
 
 【抗菌薬まとめ】メロペネム
