@@ -1,6 +1,6 @@
 ---
 title: index
-comments: true
+comments: false
 feedback_form: true
 ---
 # 市立大町総合病院　感染症フォーミュラリー  
