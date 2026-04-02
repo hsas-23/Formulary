@@ -43,6 +43,9 @@ links:
     - IDSA2016Candidiasis
 comments: true
 feedback_form: true
+version: 1.0
+last_reviewed: 2026-04-02
+status: reviewed
 ---
 
 ### **ミカファンギン：MCFG：ファンガード®**

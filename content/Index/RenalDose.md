@@ -5,9 +5,9 @@
 ## ⚠️ 調整が必要
 
 - [[Drugs/Antibiotics/ampicillin|アンピシリン（ABPC）]]
-- [[Drugs/Antibiotics/ampicillin-sulbactam|アンピシリン・スルバクタム（ABPC/SBT）]]
+- [[Drugs/Antibiotics/ampicillin-sulbactam|アンピシリン・スルバクタム（ABPC／SBT）]]
 - [[Drugs/Antibiotics/piperacillin|ピペラシリン（PIPC）]]
-- [[Drugs/Antibiotics/piperacillin-tazobactam|ピペラシリン・タゾバクタム（PIPC/TAZ）]]
+- [[Drugs/Antibiotics/piperacillin-tazobactam|ピペラシリン・タゾバクタム（PIPC／TAZ）]]
 - [[Drugs/Antibiotics/cefazolin|セファゾリン（CEZ）]]
 - [[Drugs/Antibiotics/cefmetazole|セフメタゾール（CMZ）]]
 - [[Drugs/Antibiotics/ceftazidime|セフタジジム（CAZ）]]
@@ -15,7 +15,7 @@
 - [[Drugs/Antibiotics/meropenem|メロペネム（MEPM）]]
 - [[Drugs/Antibiotics/clarithromycin|クラリスロマイシン（CAM）]]
 - [[Drugs/Antibiotics/levofloxacin|レボフロキサシン（LVFX）]]
-- [[Drugs/Antibiotics/sulfamethoxazole-trimethoprim|ST合剤（SMX/TMP）]]
+- [[Drugs/Antibiotics/sulfamethoxazole-trimethoprim|ST合剤（SMX／TMP）]]
 - [[Drugs/Antibiotics/vancomycin|バンコマイシン（VCM）]]
 
 ---

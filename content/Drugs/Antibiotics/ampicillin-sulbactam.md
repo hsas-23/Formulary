@@ -55,6 +55,9 @@ links:
     - JohnsHopkinsABxGuide
 comments: true
 feedback_form: true
+version: 1.0
+last_reviewed: 2026-04-02
+status: reviewed
 ---
 
 ### アンピシリン・スルバクタム：ABPC/SBT：ユナスピン®

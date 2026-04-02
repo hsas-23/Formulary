@@ -2,6 +2,7 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import Comments from "./quartz/components/Comments"
 import FeedbackForm from "./quartz/components/FeedbackForm"
+import VersionInfo from "./quartz/components/VersionInfo"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -27,6 +28,7 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ArticleTitle(),
+    VersionInfo(),
     Component.ContentMeta(),
     Component.TagList(),
   ],

@@ -48,6 +48,9 @@ links:
     - JAID_JSC_guideline
 comments: true
 feedback_form: true
+version: 1.0
+last_reviewed: 2026-04-02
+status: reviewed
 ---
 
 【抗菌薬まとめ】メロペネム

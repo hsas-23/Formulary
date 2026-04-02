@@ -49,8 +49,12 @@ links:
     - ASHP_IDSA_PIDS_SIDP_2020
 comments: true
 feedback_form: true
+version: 1.0
+last_reviewed: 2026-04-02
+status: reviewed
 ---
-【抗菌薬まとめ】バンコマイシン（静注用）
+
+【抗菌薬まとめ】バンコマイシン
 
 ### **バンコマイシン：VCM：バンコマイシン
 

@@ -5,9 +5,9 @@
 ## ⏱ Time-dependent（時間依存性）　fT>MIC  
 
 - [[Drugs/Antibiotics/ampicillin|アンピシリン（ABPC）]]
-- [[Drugs/Antibiotics/ampicillin-sulbactam|アンピシリン・スルバクタム（ABPC/SBT）]]
+- [[Drugs/Antibiotics/ampicillin-sulbactam|アンピシリン・スルバクタム（ABPC／SBT）]]
 - [[Drugs/Antibiotics/piperacillin|ピペラシリン（PIPC）]]
-- [[Drugs/Antibiotics/piperacillin-tazobactam|ピペラシリン・タゾバクタム（PIPC/TAZ）]]
+- [[Drugs/Antibiotics/piperacillin-tazobactam|ピペラシリン・タゾバクタム（PIPC／TAZ）]]
 - [[Drugs/Antibiotics/cefazolin|セファゾリン（CEZ）]]
 - [[Drugs/Antibiotics/cefmetazole|セフメタゾール（CMZ）]]
 - [[Drugs/Antibiotics/ceftriaxone|セフトリアキソン（CTRX）]]
@@ -17,7 +17,7 @@
 - [[Drugs/Antibiotics/clarithromycin|クラリスロマイシン（CAM）]]
 - エリスロマイシン
 - [[Drugs/Antibiotics/clindamycin|クリンダマイシン（CLDM）]]
-- [[Drugs/Antibiotics/sulfamethoxazole-trimethoprim|ST合剤（SMX/TMP）]]
+- [[Drugs/Antibiotics/sulfamethoxazole-trimethoprim|ST合剤（SMX／TMP）]]
 
 ---
 

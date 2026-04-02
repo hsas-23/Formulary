@@ -2,6 +2,9 @@
 title: index
 comments: false
 feedback_form: true
+version: 1.1
+last_reviewed: 2026-04-02
+status: reviewed
 ---
 # 市立大町総合病院　感染症フォーミュラリー  
 Infectious Diseases Formulary
@@ -18,7 +21,7 @@ Infectious Diseases Formulary
 
 - 実臨床での意思決定を支援し、また院内での抗菌薬投与方法を標準化することを目的としています
 - 必要に応じて、最新のエビデンスに基づき更新される予定です
-- 2026年3月30日時点では、作成途中です
+- 2026年4月02日時点では、作成途中です
   （作成希望の項目があれば、それもフィードバックフォームに記載してください）
 
 ---
