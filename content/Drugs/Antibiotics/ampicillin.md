@@ -27,7 +27,7 @@ covers:
   Streptococcus_pyogenes: "◎"
   Streptococcus_agalactiae: "◎"
   Enterococcus_faecalis: "◎"
-  Enterococcus_faecium: "×"
+  Enterococcus_faecium: "△"
   Listeria_monocytogenes: "◎"
 
   # グラム陰性菌（Enterobacterales）
