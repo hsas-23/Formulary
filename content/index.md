@@ -9,8 +9,6 @@ status: reviewed
 # 市立大町総合病院　感染症フォーミュラリー  
 Infectious Diseases Formulary
 
-更新：2026年3月30日
-
 ---
 
 ## ℹ️ このフォーミュラリーについて
