@@ -54,9 +54,9 @@ Infectious Diseases Formulary
 
 ### βラクタム系
 - [[Drugs/Antibiotics/ampicillin|アンピシリン（ABPC）]]
-- [[Drugs/Antibiotics/ampicillin-sulbactam|アンピシリン・スルバクタム（ABPC/SBT）]]
+- [[Drugs/Antibiotics/ampicillin-sulbactam|アンピシリン・スルバクタム（ABPC／SBT）]]
 - [[Drugs/Antibiotics/piperacillin|ピペラシリン（PIPC）]]
-- [[Drugs/Antibiotics/piperacillin-tazobactam|ピペラシリン・タゾバクタム（PIPC/TAZ）]]
+- [[Drugs/Antibiotics/piperacillin-tazobactam|ピペラシリン・タゾバクタム（PIPC／TAZ）]]
 - [[Drugs/Antibiotics/cefazolin|セファゾリン（CEZ）]]
 - [[Drugs/Antibiotics/cefmetazole|セフメタゾール（CMZ）]]
 - [[Drugs/Antibiotics/ceftriaxone|セフトリアキソン（CTRX）]]
@@ -80,7 +80,7 @@ Infectious Diseases Formulary
 - [[Drugs/Antibiotics/clindamycin|クリンダマイシン（CLDM）]]
 
 ### スルファメトキサゾール・トリメトプリム
-- [[Drugs/Antibiotics/sulfamethoxazole-trimethoprim|ST合剤（SMX/TMP）]]
+- [[Drugs/Antibiotics/sulfamethoxazole-trimethoprim|ST合剤（SMX／TMP）]]
 
 ### 抗真菌薬
 - [[Drugs/Antifungals/echinocandins/micafungin|ミカファンギン（MCFG）]]
