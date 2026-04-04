@@ -5,7 +5,8 @@ generic_ja: セファゾリン
 generic_en: cefazolin
 brand_ja: セファメジンα
 class_ja: セフェム系（第1世代セファロスポリン）
-route: [IV]
+route:
+  - IV
 renal_adjust: required
 hepatic_adjust: no
 pkpd: time_dependent
@@ -103,30 +104,36 @@ links:
 ## 抗菌スペクトラム
 
 ### 有効な菌種
-- グラム陽性菌
-  - ***Staphylococcus aureus*（MSSA）**
-  - コアグラーゼ陰性*Staphylococcus*（Methicillin感受性）
-  - ***Streptococcus pyogenes*（A群）**
-  - *Streptococcus agalactiae*（B群）
-  - *Streptococcus pneumoniae*（感受性株）
-  - Viridans streptococci
-- グラム陰性菌
-  - ***Escherichia coli*（感受性株）**
-  - ***Klebsiella pneumoniae***
-  - *Klebsiella oxytoca*
-  - ***Proteus mirabilis***
+
+#### グラム陽性菌
+- ***Staphylococcus aureus*（MSSA）**
+- コアグラーゼ陰性*Staphylococcus*（Methicillin感受性）
+- ***Streptococcus pyogenes*（A群）**
+- *Streptococcus agalactiae*（B群）
+- *Streptococcus pneumoniae*（感受性株）
+- Viridans streptococci
+
+#### グラム陰性菌
+- ***Escherichia coli*（感受性株）**
+- ***Klebsiella pneumoniae***
+- *Klebsiella oxytoca*
+- ***Proteus mirabilis***
+
+---
 
 ### 無効・注意すべき耐性菌
-- **βラクタマーゼ産生菌**
-  - ESBL産生腸内細菌目細菌（Enterobacterales）
-  - AmpC産生菌（*Enterobacter*, *Citrobacter*, *Serratia* など）
-- 本質的耐性
-  - **MRSA**
-  - ***Enterococcus* spp.**
-  - ***Pseudomonas aeruginosa***
-  - ***Listeria monocytogenes***
-  - *Acinetobacter* spp.
-  - **嫌気性菌**（*Bacteroides fragilis*など）
+
+#### βラクタマーゼ産生菌
+- ESBL産生腸内細菌目細菌（Enterobacterales）
+- AmpC産生菌（*Enterobacter*, *Citrobacter*, *Serratia* など）
+
+#### 本質的耐性
+- **MRSA**
+- ***Enterococcus* spp.**
+- ***Pseudomonas aeruginosa***
+- ***Listeria monocytogenes***
+- *Acinetobacter* spp.
+- **嫌気性菌**（*Bacteroides fragilis*など）
 
 ---
 
@@ -247,3 +254,4 @@ links:
 - UpToDate
 - Johns-Hopkins ABX Guide
 - Clin Infect Dis 44:190, 2007
+---

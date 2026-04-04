@@ -4,87 +4,140 @@ abx_id: PIPC
 generic_ja: ピペラシリン
 generic_en: piperacillin
 brand_ja: ペントシリン
-class_ja: ペニシリン系（ウレイドペニシリン）
-route: [IV]
+class_ja: ペニシリン系抗菌薬（ウレイドペニシリン）
+route:
+  - IV
 renal_adjust: required
-hepatic_adjust: no
+hepatic_adjust: not_required
 pkpd: time_dependent
-tDM: no
-restricted: yes
+tDM: not_required
+restricted: false
+
+comments: true
+feedback_form: true
+
+version: 1.1
+last_reviewed: 2026-04-04
+status: reviewed
+
 covers:
-  Streptococcus_pneumoniae: "○"
-  Streptococcus_pyogenes: "○"
-  Enterococcus_faecalis: "○"
-  Pseudomonas_aeruginosa: "◎"
-  E_coli: "△"
-  Proteus: "○"
-  Haemophilus_influenzae: "△"
-  Klebsiella: "×"
-  MSSA: "×"
-  MRSA: "×"
+  # グラム陽性菌
+  Streptococcus_pneumoniae: "◯"
+  Streptococcus_pyogenes: "◯"
+  Enterococcus_faecalis: "◯"
   Enterococcus_faecium: "×"
-  Anaerobes: "△"
+  Staphylococcus_aureus_MSSA: "×"
+  Staphylococcus_aureus_MRSA: "×"
+  Viridans_streptococci: "◯"
+  Listeria_monocytogenes: "◯"
+
+  # グラム陰性菌（Enterobacterales）
+  Escherichia_coli: "△"
+  Klebsiella_pneumoniae: "×"
+  Klebsiella_oxytoca: "×"
+  Klebsiella_aerogenes: "×"
+  Proteus_mirabilis: "◯"
+  Proteus_vulgaris: "◯"
+  Enterobacter_cloacae: "×"
+  Serratia_marcescens: "×"
+  Citrobacter_freundii: "×"
+  Citrobacter_koseri: "×"
+
+  # 非発酵菌
+  Pseudomonas_aeruginosa: "◎"
+  Acinetobacter_baumannii: "×"
+  Stenotrophomonas_maltophilia: "×"
+
+  # 呼吸器系グラム陰性菌
+  Haemophilus_influenzae: "◯"
+  Moraxella_catarrhalis: "△"
+  Neisseria_meningitidis: "△"
+  Neisseria_gonorrhoeae: "△"
+
+  # 嫌気性菌・その他
+  Bacteroides_fragilis: "✕"
+  Clostridioides_difficile: "×"
+
+  # 耐性菌カテゴリー
+  ESBL_producers: "×"
+  AmpC_producers: "×"
+  Carbapenemase_producers: "×"
+
 indications:
   - pseudomonal_infection
-  - UTI
+  - urinary_tract_infection
   - respiratory_infection
   - biliary_infection
   - de_escalation
+
 notes_short:
-  - 緑膿菌カバー可能なペニシリン系
+  - 緑膿菌に活性を持つペニシリン系抗菌薬
   - βラクタマーゼに不安定で単剤使用は限定的
-  - PIPC/TAZへのステップアップを考慮
+  - 主にde-escalationで使用
+
 links:
   references:
     - Sanford2025
     - UpToDate
     - JohnsHopkinsABxGuide
-comments: true
-feedback_form: true
-version: 1.0
-last_reviewed: 2026-04-02
-status: reviewed
 ---
 
-【抗菌薬まとめ】ピペラシリン
+# ピペラシリン（PIPC / ペントシリン®）
 
-### ピペラシリン：PIPC：ペントシリン®
-（および後発品）
+---
 
-### 分類
+## 分類
 ペニシリン系抗菌薬（ウレイドペニシリン / 広域ペニシリン）
 
-### 作用機序
+---
+
+## 作用機序
 細菌の細胞壁合成（PBP結合）を阻害することで殺菌的に作用する。アンピシリン等のアミノペニシリンと比較して、緑膿菌を含むグラム陰性桿菌に対する抗菌スペクトラムが拡大されている。
 
-### 抗菌スペクトラム
-#### 有効な菌種
-- グラム陽性菌
-  - レンサ球菌属（肺炎球菌、化膿レンサ球菌等）
-  - 腸球菌（*E. faecalis*）
-- グラム陰性菌
-  - 緑膿菌（*P. aeruginosa*）：本薬の主要なターゲットの一つである。
-  - 腸内細菌目細菌（*E. coli*、*Proteus* 等。ただしβ-ラクタマーゼ非産生株に限る）
-  - インフルエンザ菌（β-ラクタマーゼ非産生株）
-- 嫌気性菌
-  - *Bacteroides* 属など一部の嫌気性菌に活性を持つが、β-ラクタマーゼ産生株には無効である。
+---
+
+## 抗菌スペクトラム
+
+### 有効な菌種
+
+#### グラム陽性菌
+- レンサ球菌属（肺炎球菌、化膿レンサ球菌等）
+- 腸球菌（*E. faecalis*）
+
+#### グラム陰性菌
+- 緑膿菌（*P. aeruginosa*）：本薬の主要なターゲットの一つである。
+- 腸内細菌目細菌（*E. coli*、*Proteus* 等。ただしβ-ラクタマーゼ非産生株に限る）
+- インフルエンザ菌（β-ラクタマーゼ非産生株）
+
+#### 嫌気性菌
+- *Bacteroides* 属など一部の嫌気性菌に活性を持つが、β-ラクタマーゼ産生株には無効である。
 　　（臨床的には嫌気性菌カバーとしては不十分）
 
-#### 無効・注意すべき耐性菌
-- βラクタマーゼ産生菌
-  - 多くの黄色ブドウ球菌（MSSA含む）、*Haemophilus influenzae*、*E. coli*、*Klebsiella* 等でβ-ラクタマーゼ産生株には無効である（これらをカバーする場合はタゾバクタム配合剤を選択する）。
-- 本質的耐性
-  - MRSA
-  - VRE（*E. faecium*であることが多い）
+---
 
-### 主な適応症
+### 無効・注意すべき耐性菌
+
+#### βラクタマーゼ産生菌
+- 多くの黄色ブドウ球菌（MSSA含む）、*Haemophilus influenzae*、*E. coli*、*Klebsiella* 等でβ-ラクタマーゼ産生株には無効である（これらをカバーする場合はタゾバクタム配合剤を選択する）。
+
+#### 本質的耐性
+- MRSA
+- VRE（*E. faecium*であることが多い）
+
+---
+
+## 主な適応症
 - **緑膿菌感染症**が疑われるが、**他の広域抗菌薬による不必要な広域スペクトラム**（過剰な嫌気性菌やMSSAカバー）**を避けたい**場合（PIPC/TAZとの差別化）
 - <u>感受性が判明している</u>**緑膿菌感染症への標的治療（De-escalation）**
   - 尿路感染症、呼吸器感染症、などで起因菌が判明している場合
 
-### 用法・用量
-#### 成人の標準投与量
-##### 静脈内（IV）投与
+---
+
+## 用法・用量
+
+### 成人の標準投与量
+
+#### 静脈内（IV）投与
 - **通常感染症**
   - 3〜4g 4〜6時間ごと（最大24g/日）
 - **緑膿菌感染症・重症感染症**
@@ -92,7 +145,9 @@ status: reviewed
 - **尿路感染症**
   - 2g 6時間ごと または 3g 8時間ごと
 
-#### 腎機能障害時の用量調節
+---
+
+### 腎機能障害時の用量調節
 - 主に腎排泄性であり、腎機能低下時は用量調節が必要である。
 - 以下の表はサンフォードおよびJohns Hopkinsガイドに基づく目安である。
 
@@ -103,39 +158,50 @@ status: reviewed
 | 10–30 | 3〜4g q8h |
 | < 10 | 3〜4g q12h |
 
-##### 血液透析（HD）
+---
+
+#### 血液透析（HD）
 - 2g 8時間ごと
 - 透析により30〜50%が除去されるため、透析日は透析終了後に1gを追加投与する（重症例・緑膿菌では 3g q8h ＋ 透析後1g追加）。
 
-##### 腹膜透析（PD）
+#### 腹膜透析（PD）
 - 2g 8時間ごと（重症・緑膿菌では 3g 8時間ごと）
 
-##### 持続的腎代替療法（CRRT：CVVH / CVVHD / CVVHDF）
+#### 持続的腎代替療法（CRRT：CVVH / CVVHD / CVVHDF）
 - CVVH: 2g 6時間ごと
 - CVVHD: 2〜3g 6時間ごと（重症感染症では 3g 6時間ごと）
 
-#### 肝機能障害時
+---
+
+### 肝機能障害時
 - 用量調節は不要である。
 
-### 副作用
-#### 主な副作用
+---
+
+## 副作用
+
+### 主な副作用
 - 発疹、過敏症（ペニシリンアレルギー）
 - 消化器症状（下痢、悪心など）
 - 肝機能異常（AST/ALT上昇）
 
-#### 重篤な副作用
+### 重篤な副作用
 - ショック、アナフィラキシー
 - *Clostridioides difficile* 感染症（CD腸炎、偽膜性大腸炎）
 - 神経毒性（痙攣等：腎機能低下時の過剰投与による）
 - 好中球減少症、血小板減少、溶血性貧血
 - 電解質異常（低カリウム血症、高ナトリウム血症）
 
-### 薬物相互作用
+---
+
+## 薬物相互作用
 - プロベネシド：ピペラシリンの腎排泄を遅延させ、血中濃度を上昇させる。
 - メトトレキサート：排泄を阻害し、毒性を増強させる可能性がある。
 - アミノグリコシド系：同一シリンジ内での混合によりアミノグリコシドが不活化されるため、別ルートで投与するか、十分な時間差を空ける必要がある。
 
-### 注意点
+---
+
+## 注意点
 - ペニシリンアレルギー
   - アレルギー既往のある患者には慎重に投与する。
 - **ナトリウム含有量**
@@ -148,9 +214,10 @@ status: reviewed
   - β-ラクタマーゼに対して非常に不安定であるため、経験的治療（Empiric Therapy）として単剤で使用されることは少なく、主に感受性が確認された後の標的治療（de-escalation）や、β-ラクタマーゼ阻害薬との配合剤（PIPC/TAZ）として使用されることが多い。
 - 米国での状況
   - 米国ではピペラシリン単剤は販売中止されており、タゾバクタムとの配合剤（PIPC/TAZ）のみが利用可能である。
-  
+
 ---
-### 参考
+
+## 参考
 - サンフォード感染症治療ガイド2025
 - UpToDate (Dosing: Adult)
 - Johns-Hopkins ABx Guide

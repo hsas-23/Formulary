@@ -5,7 +5,8 @@ generic_ja: セフメタゾール
 generic_en: cefmetazole
 brand_ja: セフメタゾン
 class_ja: セフェム系（セファマイシン系）
-route: [IV]
+route:
+  - IV
 renal_adjust: required
 hepatic_adjust: no
 pkpd: time_dependent
@@ -101,27 +102,34 @@ links:
 ## 抗菌スペクトラム
 
 ### 有効な菌種
-- グラム陽性菌
-  - MSSA
-  - 肺炎球菌
-  - 化膿性レンサ球菌
-  - 緑色レンサ球菌
-- グラム陰性菌
-  - *Escherichia coli*
-  - *Klebsiella* 属
-  - *Proteus* 属
-  - *Haemophilus influenzae*
-  - *Moraxella catarrhalis*
-  - *Neisseria* 属
-  - 一部のβラクタマーゼ産生腸内細菌科細菌（AmpC産生のない菌種）
-- 嫌気性菌
-  - *Bacteroides fragilis* 群
-  - *Clostridium* 属
-  - *Peptostreptococcus* 属
+
+#### グラム陽性菌
+- MSSA
+- 肺炎球菌
+- 化膿性レンサ球菌
+- 緑色レンサ球菌
+
+#### グラム陰性菌
+- *Escherichia coli*
+- *Klebsiella* 属
+- *Proteus* 属
+- *Haemophilus influenzae*
+- *Moraxella catarrhalis*
+- *Neisseria* 属
+- 一部のβラクタマーゼ産生腸内細菌科細菌（AmpC産生のない菌種）
+
+#### 嫌気性菌
+- *Bacteroides fragilis* 群
+- *Clostridium* 属
+- *Peptostreptococcus* 属
 　**※単剤で嫌気性菌へのスペクトラムを有することが最大の特徴**
 　　（他のセファロスポリンは基本的に嫌気性菌には無効）
 
+---
+
 ### 無効・注意すべき耐性菌
+
+#### 本質的耐性
 - MRSA
 - 腸球菌
 - *Listeria monocytogenes*
@@ -167,6 +175,8 @@ links:
 | 50–80 | (1–)2 g 12時間ごと |
 | 10–49 | 2 g 24時間ごと |
 | <10 | (1–)2 g 48時間ごと |
+
+---
 
 #### 血液透析（HD）
 - **1–2 g 48時間ごと**
@@ -257,3 +267,4 @@ CMZの位置づけは：
 - Antimicrob Agents Chemother. 2023 Oct 18;67(10):e0051023.
 - Open Forum Infect Dis. 2023 Oct 7;10(10):ofad502.
 - Pediatr Int. 2019 Jun;61(6):572-577.
+---

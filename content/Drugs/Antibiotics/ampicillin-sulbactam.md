@@ -5,7 +5,8 @@ generic_ja: アンピシリン・スルバクタム
 generic_en: ampicillin-sulbactam
 brand_ja: ユナスピン
 class_ja: ペニシリン系（アミノペニシリン）＋βラクタマーゼ阻害薬
-route: [IV]
+route:
+  - IV
 renal_adjust: required
 hepatic_adjust: no
 pkpd: time_dependent
@@ -107,31 +108,40 @@ links:
 ## 抗菌スペクトラム
 
 ### 有効な菌種
-- グラム陽性菌
-  - 肺炎球菌
-  - 化膿性レンサ球菌（GAS, GBS, GGS）
-  - 腸球菌（*Enterococcus faecalis*）
-  - メチシリン感受性黄色ブドウ球菌（MSSA）
-  　　など
-- グラム陰性菌
-  - *Haemophilus influenzae*（βラクタマーゼ産生株含む）
-  - *Escherichia coli*（βラクタマーゼ産生株含む）
-  - *Klebsiella* 属
-  - *Proteus mirabilis*
-  - *Moraxella catarrhalis*
-  　　など
-- 嫌気性菌
-  - *Bacteroides fragilis* group
-  - *Prevotella* 属
-  - *Clostridium* 属（*Clostridium perfringens*など。*Clostridioides difficile*は除く）
+
+#### グラム陽性菌
+- 肺炎球菌
+- 化膿性レンサ球菌（GAS, GBS, GGS）
+- 腸球菌（*Enterococcus faecalis*）
+- メチシリン感受性黄色ブドウ球菌（MSSA）
   　　など
 
+#### グラム陰性菌
+- *Haemophilus influenzae*（βラクタマーゼ産生株含む）
+- *Escherichia coli*（βラクタマーゼ産生株含む）
+- *Klebsiella* 属
+- *Proteus mirabilis*
+- *Moraxella catarrhalis*
+  　　など
+
+#### 嫌気性菌
+- *Bacteroides fragilis* group
+- *Prevotella* 属
+- *Clostridium* 属（*Clostridium perfringens*など。*Clostridioides difficile*は除く）
+  　　など
+
+---
+
 ### 無効・注意すべき耐性菌
+
+#### βラクタマーゼ産生菌
+- ESBL 産生菌
+- カルバペネマーゼ産生菌
+
+#### 本質的耐性
 - MRSA
 - 緑膿菌
 - *Serratia*、*Enterobacter*、*Citrobacter* 属（AmpCを保有する菌種）
-- ESBL 産生菌
-- カルバペネマーゼ産生菌
 - 肺炎でも、非定型肺炎には無効（*Mycoplasma*や*Legionella*、*Chlamydia*をカバーしない）のため要注意
 
 ---
@@ -173,6 +183,8 @@ links:
 | >30 | 通常用量・通常間隔 |
 | 15–29 | (1.5–)3 g 12時間ごと |
 | 5–14 | (1.5–)3 g 24時間ごと<br>→これを用いることで、重度腎機能障害患者の場合には、<br>　セフトリアキソン的に1日1回通院での静注治療も不可能ではない |
+
+---
 
 #### 血液透析（HD）
 - **(1.5–)3 g を透析終了後に投与**
@@ -236,3 +248,4 @@ links:
 - サンフォード感染症治療ガイド2025（Sanford Guide to Antimicrobial Therapy日本語版）
 - UpToDate
 - Johns-Hopkins ABx Guide
+---

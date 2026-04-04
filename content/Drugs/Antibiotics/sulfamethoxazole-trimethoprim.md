@@ -1,36 +1,79 @@
 ---
 type: antibiotic
-abx_id: SMX_TMP
+abx_id: SMX/TMP
 generic_ja: スルファメトキサゾール・トリメトプリム
 generic_en: sulfamethoxazole-trimethoprim
 brand_ja: バクタ
 class_ja: サルファ剤＋葉酸代謝拮抗剤配合剤
-route: [PO, IV]
+route:
+  - PO
+  - IV
 renal_adjust: required
 hepatic_adjust: caution
 pkpd: concentration_dependent
 tDM: no
 restricted: no
+
+comments: true
+feedback_form: true
+
+version: 1.1
+last_reviewed: 2026-04-04
+status: reviewed
+
 covers:
-  MSSA: "○"
-  MRSA: "◎"
-  Streptococcus_pneumoniae: "○"
+  # グラム陽性菌
+  Staphylococcus_aureus_MSSA: "○"
+  Staphylococcus_aureus_MRSA: "○"
+  Coagulase_negative_staphylococci_methicillin_susceptible: "○"
   Streptococcus_pyogenes: "○"
-  Listeria: "○"
-  Nocardia: "◎"
-  Haemophilus_influenzae: "○"
-  E_coli: "○"
-  Klebsiella: "○"
+  Streptococcus_agalactiae: "○"
+  Streptococcus_pneumoniae: "○"
+  Viridans_streptococci: "○"
+  Enterococcus_faecalis: "×"
+  Enterococcus_faecium: "×"
+  Listeria_monocytogenes: "○"
+
+  # グラム陰性菌（Enterobacterales）
+  Escherichia_coli: "○"
+  Klebsiella_pneumoniae: "○"
+  Klebsiella_oxytoca: "○"
+  Klebsiella_aerogenes: "○"
   Proteus_mirabilis: "○"
-  Stenotrophomonas: "◎"
+  Proteus_vulgaris: "○"
+  Serratia_marcescens: "○"
+  Enterobacter_cloacae: "○"
+  Citrobacter_freundii: "○"
+  Citrobacter_koseri: "○"
   Salmonella: "○"
   Shigella: "○"
+
+  # 非発酵菌
+  Pseudomonas_aeruginosa: "×"
+  Acinetobacter_baumannii: "×"
+  Stenotrophomonas_maltophilia: "◎"
+
+  # その他グラム陰性菌
+  Haemophilus_influenzae: "○"
+  Moraxella_catarrhalis: "×"
+  Neisseria_meningitidis: "×"
+  Neisseria_gonorrhoeae: "×"
+
+  # 嫌気性菌・特殊菌
+  Bacteroides_fragilis: "×"
+  Clostridioides_difficile: "×"
+
+  # 非定型菌・その他
+  Nocardia: "◎"
   Pneumocystis_jirovecii: "◎"
   Toxoplasma_gondii: "○"
   Cyclospora: "○"
-  Pseudomonas_aeruginosa: "×"
-  Anaerobes: "×"
-  Enterococcus: "×"
+
+  # 耐性菌カテゴリー
+  ESBL_producers: "△"
+  AmpC_producers: "△"
+  Carbapenemase_producers: "×"
+
 indications:
   - PCP_treatment
   - PCP_prophylaxis
@@ -41,58 +84,68 @@ indications:
   - nocardiosis
   - listeriosis
   - enteric_infection
+
 notes_short:
   - PCPの第一選択薬
   - Stenotrophomonas maltophiliaの第一選択薬の一つ
   - 高K血症と血清Cr上昇に注意
+
 links:
   references:
     - Sanford2025
     - UpToDate
     - JohnsHopkinsABxGuide
-comments: true
-feedback_form: true
-version: 1.0
-last_reviewed: 2026-04-02
-status: reviewed
 ---
 
-【抗菌薬まとめ】ST合剤
+# スルファメトキサゾール・トリメトプリム（SMX/TMP / バクタ®）
 
-### スルファメトキサゾール・トリメトプリム：SMX/TMP：バクタ®
-（およびバクトラミン®、後発品）
+---
 
-### 分類
+## 分類
 サルファ剤（スルファメトキサゾール）＋葉酸代謝拮抗剤（トリメトプリム）配合剤
 
-### 作用機序
+---
+
+## 作用機序
 スルファメトキサゾールとトリメトプリムが、細菌の葉酸合成における連続した2段階を阻害することで相乗的に殺菌作用を発揮する。
 
-### 抗菌スペクトラム
-#### 有効な菌種
-- グラム陽性菌
-  - 黄色ブドウ球菌（MRSAを含む市中感染型MRSAに有効）
-  - 肺炎球菌、化膿レンサ球菌
-  - リステリア（*L. monocytogenes*）
-  - ノカルジア（*Nocardia* spp.）
-- グラム陰性菌
-  - *Haemophilus influenzae*
-  - 大腸菌（*E. coli*）
-  - *Klebsiella* spp.
-  - *Proteus mirabilis*
-  - *Stenotrophomonas maltophilia*（第一選択薬の一つ）
-  - *Salmonella*、*Shigella*
-- 真菌・原虫
-  - ニューモシスチス・イロベチイ（*Pneumocystis jirovecii*）
-  - トキソプラズマ（*Toxoplasma gondii*）
-  - サイクロスポラ（*Cyclospora*）
+---
 
-#### 無効・注意すべき耐性菌
+## 抗菌スペクトラム
+
+### 有効な菌種
+
+#### グラム陽性菌
+- 黄色ブドウ球菌（MRSAを含む市中感染型MRSAに有効）
+- 肺炎球菌、化膿レンサ球菌
+- リステリア（*L. monocytogenes*）
+- ノカルジア（*Nocardia* spp.）
+
+#### グラム陰性菌
+- *Haemophilus influenzae*
+- 大腸菌（*E. coli*）
+- *Klebsiella* spp.
+- *Proteus mirabilis*
+- *Stenotrophomonas maltophilia*（第一選択薬の一つ）
+- *Salmonella*、*Shigella*
+
+#### 真菌・原虫
+- ニューモシスチス・イロベチイ（*Pneumocystis jirovecii*）
+- トキソプラズマ（*Toxoplasma gondii*）
+- サイクロスポラ（*Cyclospora*）
+
+---
+
+### 無効・注意すべき耐性菌
+
+#### 本質的耐性・無効
 - 緑膿菌（*P. aeruginosa*）
 - 嫌気性菌
 - 腸球菌（*Enterococcus* spp.：in vitroで感受性があっても臨床的には無効とされる）
 
-### 主な適応症
+---
+
+## 主な適応症
 - ニューモシスチス肺炎（PCP）の治療および予防
 - 市中感染型MRSAによる皮膚・軟部組織感染症
 - *Stenotrophomonas maltophilia* 感染症
@@ -101,17 +154,21 @@ status: reviewed
 - リステリア症（ペニシリンアレルギー時）
 - 腸管感染症（サルモネラ、シゲラ、旅行者下痢症）
 
-### 用法・用量
-※ 投与量はトリメトプリム（TMP）成分に基づき算出する。
-※ 日本の標準錠（バクタ等）1錠：TMP 80mg / SMX 400mg 含有。
-※ 海外の文献等でSSと書いてあるのは、single-strengthの略で、1錠中にTMP 80mg含有を指す。
-　DS（double-strength）製剤が海外にはあるが、日本にはない。
-　→日本のバクタ®／バクトラミン®錠は、SS
-※ バクタミニ®配合錠が2021年に発売。これはTMP 20mgで、通常の錠剤0.25錠分に相当。　　
+---
+
+## 用法・用量
+
+### 成人の標準投与量
+
+※ 投与量はトリメトプリム（TMP）成分に基づき算出する。  
+※ 日本の標準錠（バクタ等）1錠：TMP 80mg / SMX 400mg 含有。  
+※ 海外の文献等でSSと書いてあるのは、single-strengthの略で、1錠中にTMP 80mg含有を指す。  
+　DS（double-strength）製剤が海外にはあるが、日本にはない。  
+　→日本のバクタ®／バクトラミン®錠は、SS  
+※ バクタミニ®配合錠が2021年に発売。これはTMP 20mgで、通常の錠剤0.25錠分に相当。  
 　サイズが小さくなり、甘味料が入り飲みやすくなったよう。
 
-#### 成人の標準投与量
-##### 経口（Oral）投与
+#### 経口（PO）投与
 - **通常感染症（尿路感染症等）**
   - 2錠（TMP 160mg）を12時間ごと
 - **ニューモシスチス肺炎（PCP）予防**
@@ -119,13 +176,15 @@ status: reviewed
   - 1錠を1日1回、または1錠を週3回（日本で行われることが多い）
   - 0.5錠を1日1回、という内服方法も主に膠原病領域から有効性が報告されている（日本）
 
-##### 静脈内（IV）投与
+#### 静脈内（IV）投与
 - **通常感染症**
   - 8〜10 mg/kg/日（TMP換算）を2〜4回に分割投与
 - **ニューモシスチス肺炎（PCP）治療**
   - 15〜20 mg/kg/日（TMP換算）を3〜4回に分割投与（6〜8時間ごと）
 
-#### 腎機能障害時の用量調節
+---
+
+### 腎機能障害時の用量調節
 - 本剤は主に腎排泄されるため、腎機能低下時は用量調節が必要である。
 - 以下の表はUpToDateに基づく目安である。
 
@@ -135,26 +194,31 @@ status: reviewed
 | 15–30 | 50%に減量（例：1錠 q12h または 2錠 q24h） | 50%に減量（例：7.5-10mg/kg/dを2分割） |
 | < 15 | 25〜50%に減量（慎重投与） | 25〜50%に減量（例：4-5mg/kg/dを24時間ごと） |
 
-##### 血液透析（HD）
+#### 血液透析（HD）
 - 透析後に通常用量の50%（例：1錠）を投与、または15mg/kg/日（PCP治療時）を投与する。
 
-##### 腹膜透析（PD）
+#### 腹膜透析（PD）
 - CrCl < 15 mL/minの基準に従い投与（1錠 q24h等）。
 
-##### 持続的腎代替療法（CRRT：CVVH / CVVHD / CVVHDF）
+#### 持続的腎代替療法（CRRT：CVVH / CVVHD / CVVHDF）
 - 調節不要（通常用量での投与が可能）。
 
-#### 肝機能障害時
+---
+
+### 肝機能障害時
 - 重度の肝障害がある場合は慎重投与。
 
-### 副作用
-#### 主な副作用
+---
+
+## 副作用
+
+### 主な副作用
 - 発疹、そう痒（薬疹は頻度が高い）
 - 悪心、嘔吐、食欲不振（特に高齢者では、開始後の食事量低下に注意）
 - 高カリウム血症（特に高齢者やACE阻害薬/ARB併用、腎機能障害者で注意が必要である）
 - 血清クレアチニン値の上昇（TMPによる尿細管分泌阻害による擬似的な上昇）
 
-#### 重篤な副作用
+### 重篤な副作用
 - ショック、アナフィラキシー
 - 皮膚粘膜眼症候群（SJS）、中毒性表皮壊死融解症（TEN）
 - 血液障害（汎血球減少、無顆粒球症、血小板減少、溶血性貧血）
@@ -162,13 +226,17 @@ status: reviewed
 - 低ナトリウム血症
 - 低血糖（稀）
 
-### 薬物相互作用
+---
+
+## 薬物相互作用
 - **ワーファリン**: 抗凝固作用を著しく増強させるため、併用時はINRの頻回なモニタリングとワーファリンの減量が必要である。
 - **ACE阻害薬、ARB、スピロノラクトン**: 高カリウム血症のリスクが増大する。
 - **メトトレキサート**: 葉酸代謝阻害を増強し、血液毒性を高める可能性がある。
 - **フェニトイン**: フェニトインの代謝を阻害し、血中濃度を上昇させる。
 
-### 注意点
+---
+
+## 注意点
 - **サルファ剤アレルギー**
   - サルファ剤に対して過敏症の既往がある患者には禁忌である。
 - **G6PD欠損症**
@@ -181,7 +249,8 @@ status: reviewed
   - 特に高齢者や腎機能障害者、高用量投与時（PCP治療等）には血清カリウム値を頻回にチェックする必要がある。
 
 ---
-### 参考
+
+## 参考
 - サンフォード感染症治療ガイド2025
 - UpToDate (Dosing: Adult / Dosing: Kidney Impairment: Adult)
 - Johns-Hopkins ABx Guide

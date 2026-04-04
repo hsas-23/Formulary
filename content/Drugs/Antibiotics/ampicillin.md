@@ -5,7 +5,8 @@ generic_ja: アンピシリン
 generic_en: ampicillin
 brand_ja: ビクシリン
 class_ja: ペニシリン系（アミノペニシリン）
-route: [IV]
+route:
+  - IV
 renal_adjust: required
 hepatic_adjust: no
 pkpd: time_dependent
