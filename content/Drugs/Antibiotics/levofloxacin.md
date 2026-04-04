@@ -71,8 +71,8 @@ covers:
   Yersinia_pestis: "◎"
 
   # 耐性菌カテゴリー
-  ESBL_producers: "×"
-  AmpC_producers: "×"
+  ESBL_producers: "△"
+  AmpC_producers: "△"
   Carbapenemase_producers: "×"
 
 indications:
