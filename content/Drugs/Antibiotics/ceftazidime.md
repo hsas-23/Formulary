@@ -11,22 +11,60 @@ hepatic_adjust: no
 pkpd: time_dependent
 tDM: no
 restricted: yes
+
+comments: true
+feedback_form: true
+
+version: 1.1
+last_reviewed: 2026-04-04
+status: reviewed
+
 covers:
-  Pseudomonas_aeruginosa: "◎"
-  E_coli: "◎"
-  Klebsiella: "◎"
-  Haemophilus_influenzae: "◎"
-  Neisseria: "◎"
+  # グラム陽性菌
+  Staphylococcus_aureus_MSSA: "×"
+  Staphylococcus_aureus_MRSA: "×"
   Streptococcus_pneumoniae: "×"
   Streptococcus_pyogenes: "×"
-  MSSA: "×"
-  AmpC: "△"
-  ESBL: "×"
-  CRE: "×"
-  MRSA: "×"
-  Enterococcus: "×"
-  Anaerobes: "×"
-  Listeria: "×"
+  Streptococcus_agalactiae: "×"
+  Viridans_streptococci: "×"
+  Enterococcus_faecalis: "×"
+  Enterococcus_faecium: "×"
+  Listeria_monocytogenes: "×"
+
+  # グラム陰性菌（Enterobacterales）
+  Escherichia_coli: "◎"
+  Klebsiella_pneumoniae: "◎"
+  Klebsiella_oxytoca: "◎"
+  Klebsiella_aerogenes: "△"
+  Proteus_mirabilis: "◎"
+  Proteus_vulgaris: "◎"
+  Serratia_marcescens: "△"
+  Enterobacter_cloacae: "△"
+  Citrobacter_freundii: "△"
+  Citrobacter_koseri: "△"
+  Salmonella: "◎"
+  Shigella: "◎"
+
+  # 非発酵菌
+  Pseudomonas_aeruginosa: "◎"
+  Acinetobacter_baumannii: "×"
+  Stenotrophomonas_maltophilia: "×"
+
+  # その他グラム陰性菌
+  Haemophilus_influenzae: "◎"
+  Moraxella_catarrhalis: "◎"
+  Neisseria_meningitidis: "◎"
+  Neisseria_gonorrhoeae: "◎"
+
+  # 嫌気性菌・特殊菌
+  Bacteroides_fragilis: "×"
+  Clostridioides_difficile: "×"
+
+  # 耐性菌カテゴリー
+  ESBL_producers: "×"
+  AmpC_producers: "△"
+  Carbapenemase_producers: "×"
+
 indications:
   - pseudomonal_infection
   - sepsis
@@ -35,20 +73,17 @@ indications:
   - febrile_neutropenia
   - HAP
   - VAP
+
 notes_short:
   - 緑膿菌を主標的とする第3世代セフェム
   - グラム陽性菌カバーは乏しい
   - 腎機能低下時は厳密な用量調節が必要
+
 links:
   references:
     - Sanford2025
     - UpToDate
     - JohnsHopkinsABxGuide
-comments: true
-feedback_form: true
-version: 1.0
-last_reviewed: 2026-04-02
-status: reviewed
 ---
 
 【抗菌薬まとめ】セフタジジム
@@ -68,7 +103,7 @@ status: reviewed
   - 緑膿菌（*P. aeruginosa*）：本薬の主要なターゲットである
   - 腸内細菌目細菌（*E. coli*、*Klebsiella*、*Proteus*など）
   - *Haemophilus influenzae*
-  - Neisseria 属
+  - *Neisseria* 属
 
 #### 無効・注意すべき耐性菌
 - **グラム陽性菌**に対してはほとんど活性がなく、<u>無効と考えた方が良い</u>（臨床的にはカバー薬として用いない）

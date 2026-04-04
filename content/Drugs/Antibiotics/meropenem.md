@@ -11,23 +11,60 @@ hepatic_adjust: no
 pkpd: time_dependent
 tDM: no
 restricted: yes
+
+comments: true
+feedback_form: true
+
+version: 1.1
+last_reviewed: 2026-04-04
+status: reviewed
+
 covers:
-  MSSA: "○"
-  MRSA: "×"
+  # グラム陽性菌
+  Staphylococcus_aureus_MSSA: "○"
+  Staphylococcus_aureus_MRSA: "×"
   Streptococcus_pneumoniae: "○"
   Streptococcus_pyogenes: "○"
+  Streptococcus_agalactiae: "○"
+  Viridans_streptococci: "○"
   Enterococcus_faecalis: "△"
   Enterococcus_faecium: "×"
-  Enterobacterales: "◎"
+  Listeria_monocytogenes: "×"
+
+  # グラム陰性菌（Enterobacterales）
+  Escherichia_coli: "◎"
+  Klebsiella_pneumoniae: "◎"
+  Klebsiella_oxytoca: "◎"
+  Klebsiella_aerogenes: "◎"
+  Proteus_mirabilis: "◎"
+  Proteus_vulgaris: "◎"
+  Serratia_marcescens: "◎"
+  Enterobacter_cloacae: "◎"
+  Citrobacter_freundii: "◎"
+  Citrobacter_koseri: "◎"
+  Salmonella: "◎"
+  Shigella: "◎"
+
+  # 非発酵菌
+  Pseudomonas_aeruginosa: "○"
+  Acinetobacter_baumannii: "△"
+  Stenotrophomonas_maltophilia: "×"
+
+  # その他グラム陰性菌
+  Haemophilus_influenzae: "◎"
+  Moraxella_catarrhalis: "◎"
+  Neisseria_meningitidis: "◎"
+  Neisseria_gonorrhoeae: "◎"
+
+  # 嫌気性菌・特殊菌
+  Bacteroides_fragilis: "◎"
+  Clostridioides_difficile: "×"
+
+  # 耐性菌カテゴリー
   ESBL_producers: "◎"
   AmpC_producers: "◎"
-  Pseudomonas_aeruginosa: "○"
-  Neisseria_meningitidis: "◎"
-  Haemophilus_influenzae: "◎"
-  anaerobes: "◎"
-  Bacteroides_fragilis: "◎"
-  CRE: "×"
-  Stenotrophomonas: "×"
+  Carbapenemase_producers: "×"
+
 indications:
   - sepsis
   - intra_abdominal_infection
@@ -36,21 +73,18 @@ indications:
   - febrile_neutropenia
   - bacterial_meningitis
   - ESBL_infection
+
 notes_short:
   - 超広域βラクタム
   - ESBL感染の第一選択
   - デエスカレーション必須
+
 links:
   references:
     - Sanford2025
     - UpToDate
     - JohnsHopkinsABxGuide
     - JAID_JSC_guideline
-comments: true
-feedback_form: true
-version: 1.0
-last_reviewed: 2026-04-02
-status: reviewed
 ---
 
 【抗菌薬まとめ】メロペネム
@@ -77,6 +111,7 @@ status: reviewed
   - *Haemophilus influenzae*
 - **嫌気性菌**
   - *Bacteroides fragilis* グループを含む嫌気性菌全般
+
 #### **無効・注意すべき耐性菌**
 - **MRSA**（全てのカルバペネム系が無効）
 - **バンコマイシン耐性腸球菌（VRE）**
@@ -113,9 +148,11 @@ status: reviewed
 
 ##### **血液透析 (HD) 患者:** 
 - 500 mg を24時間ごとに投与。透析による除去率が高いため、**透析終了後に投与**する。
+
 ##### **持続的腎代替療法 (CRRT: CVVH/CVVHD/CVVHDF) 患者:** 
 - **1 g を8–12時間ごと**に投与。
 - 除去効率が高いため、通常の腎不全用量よりも多めの設定が必要である。耐性菌ターゲットの場合は 1g 8時間ごとの延長投与を検討する。
+
 #### **肝機能障害時**
 - 用量調節は不要。
 
@@ -124,6 +161,7 @@ status: reviewed
 *   下痢、悪心、嘔吐
 *   皮疹、瘙痒感
 *   肝機能障害（AST/ALTの上昇）
+
 #### **重篤な副作用**
 *   **アナフィラキシー**
 *   **痙攣**: カルバペネム系の中ではイミペネムより頻度は低いが、過量投与や腎機能障害時に注意が必要。

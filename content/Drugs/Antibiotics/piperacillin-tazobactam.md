@@ -11,24 +11,60 @@ hepatic_adjust: no
 pkpd: time_dependent
 tDM: no
 restricted: yes
+
+comments: true
+feedback_form: true
+
+version: 1.1
+last_reviewed: 2026-04-04
+status: reviewed
+
 covers:
+  # グラム陽性菌
+  Staphylococcus_aureus_MSSA: "○"
+  Staphylococcus_aureus_MRSA: "×"
   Streptococcus_pneumoniae: "○"
   Streptococcus_pyogenes: "◎"
-  MSSA: "○"
+  Streptococcus_agalactiae: "○"
+  Viridans_streptococci: "○"
   Enterococcus_faecalis: "○"
   Enterococcus_faecium: "×"
+  Listeria_monocytogenes: "×"
+
+  # グラム陰性菌（Enterobacterales）
+  Escherichia_coli: "◎"
+  Klebsiella_pneumoniae: "◎"
+  Klebsiella_oxytoca: "◎"
+  Klebsiella_aerogenes: "◎"
+  Proteus_mirabilis: "◎"
+  Proteus_vulgaris: "◎"
+  Serratia_marcescens: "○"
+  Enterobacter_cloacae: "○"
+  Citrobacter_freundii: "○"
+  Citrobacter_koseri: "○"
+  Salmonella: "◯"
+  Shigella: "◯"
+
+  # 非発酵菌
   Pseudomonas_aeruginosa: "◎"
-  E_coli: "◎"
-  Klebsiella: "◎"
-  Enterobacter: "○"
+  Acinetobacter_baumannii: "△"
+  Stenotrophomonas_maltophilia: "×"
+
+  # その他グラム陰性菌
   Haemophilus_influenzae: "◎"
   Moraxella_catarrhalis: "◎"
-  Anaerobes: "◎"
+  Neisseria_meningitidis: "◎"
+  Neisseria_gonorrhoeae: "◎"
+
+  # 嫌気性菌・特殊菌
   Bacteroides_fragilis: "◎"
-  MRSA: "×"
-  ESBL: "△"
-  CRE: "×"
-  Stenotrophomonas: "×"
+  Clostridioides_difficile: "×"
+
+  # 耐性菌カテゴリー
+  ESBL_producers: "◯"
+  AmpC_producers: "△"
+  Carbapenemase_producers: "×"
+
 indications:
   - sepsis
   - febrile_neutropenia
@@ -37,21 +73,19 @@ indications:
   - intra_abdominal_infection
   - cholangitis
   - UTI_complicated
+
 notes_short:
   - 緑膿菌＋嫌気性菌を同時にカバー可能
   - Extended infusion推奨
   - ESBL感染ではカルバペネム優先
+
 links:
   references:
     - Sanford2025
     - UpToDate
     - JohnsHopkinsABxGuide
-comments: true
-feedback_form: true
-version: 1.0
-last_reviewed: 2026-04-02
-status: reviewed
 ---
+
 
 【抗菌薬まとめ】ピペラシリン・タゾバクタム
 

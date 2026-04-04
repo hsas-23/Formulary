@@ -11,26 +11,60 @@ hepatic_adjust: no
 pkpd: time_dependent
 tDM: no
 restricted: yes
+
+comments: true
+feedback_form: true
+
+version: 1.1
+last_reviewed: 2026-04-04
+status: reviewed
+
 covers:
+  # グラム陽性菌
+  Staphylococcus_aureus_MSSA: "○"
+  Staphylococcus_aureus_MRSA: "×"
   Streptococcus_pneumoniae: "○"
   Streptococcus_pyogenes: "○"
+  Streptococcus_agalactiae: "○"
   Viridans_streptococci: "○"
-  MSSA: "○"
+  Enterococcus_faecalis: "×"
+  Enterococcus_faecium: "×"
+  Listeria_monocytogenes: "×"
+
+  # グラム陰性菌（Enterobacterales）
+  Escherichia_coli: "◎"
+  Klebsiella_pneumoniae: "◎"
+  Klebsiella_oxytoca: "◎"
+  Klebsiella_aerogenes: "◎"
+  Proteus_mirabilis: "◎"
+  Proteus_vulgaris: "◎"
+  Serratia_marcescens: "◎"
+  Enterobacter_cloacae: "◎"
+  Citrobacter_freundii: "◎"
+  Citrobacter_koseri: "◎"
+  Salmonella: "◯"
+  Shigella: "◯"
+
+  # 非発酵菌
   Pseudomonas_aeruginosa: "◎"
-  E_coli: "◎"
-  Klebsiella: "◎"
-  Enterobacter: "◎"
-  Citrobacter: "◎"
-  Serratia: "◎"
+  Acinetobacter_baumannii: "△"
+  Stenotrophomonas_maltophilia: "×"
+
+  # その他グラム陰性菌
   Haemophilus_influenzae: "◎"
   Moraxella_catarrhalis: "◎"
-  ESBL: "△"
-  CRE: "×"
-  MRSA: "×"
-  Enterococcus: "×"
-  Anaerobes: "×"
-  Listeria: "×"
-  Legionella: "×"
+  Neisseria_meningitidis: "◎"
+  Neisseria_gonorrhoeae: "◎"
+
+  # 嫌気性菌・特殊菌
+  Bacteroides_fragilis: "×"
+  Clostridioides_difficile: "×"
+
+  # 耐性菌カテゴリー
+  ESBL_producers: "✕"
+  AmpC_producers: "◎"
+  Carbapenemase_producers: "×"
+
 indications:
   - febrile_neutropenia
   - HAP
@@ -40,20 +74,18 @@ indications:
   - UTI_complicated
   - pyelonephritis
   - meningitis
+
 notes_short:
   - 緑膿菌およびAmpC産生菌を意識した広域セフェム
   - 腎機能障害時は厳密な用量調節が必須
   - セフェピム脳症に注意
+  - 第3世代よりAmpC安定性が高い
+
 links:
   references:
     - Sanford2025
     - UpToDate
     - JohnsHopkinsABxGuide
-comments: true
-feedback_form: true
-version: 1.0
-last_reviewed: 2026-04-02
-status: reviewed
 ---
 
 【抗菌薬まとめ】セフェピム
@@ -169,4 +201,3 @@ status: reviewed
 - UpToDate (Dosing: Adult / Dosing: Kidney Impairment: Adult)
 - Johns-Hopkins ABx Guide
 ---
-
