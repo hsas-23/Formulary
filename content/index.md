@@ -6,14 +6,14 @@ version: 1.1
 last_reviewed: 2026-04-02
 status: reviewed
 ---
-# 市立大町総合病院　感染症フォーミュラリー  
+# 市立大町総合病院　感染症フォーミュラリ 
 Infectious Diseases Formulary
 
 ---
 
-## ℹ️ このフォーミュラリーについて
+## ℹ️ このフォーミュラリについて
 
-本フォーミュラリーは、感染症専門医の実臨床経験および主要ガイドライン（Sanford Guide, UpToDate, Johns-Hopkins ABx guide, IDSA ガイドライン など）をもとに作成しています
+本フォーミュラリは、感染症専門医の実臨床経験および主要ガイドライン（Sanford Guide, UpToDate, Johns-Hopkins ABx guide, IDSA ガイドライン など）をもとに作成しています
 - 内容は十分注意して作成していますが、間違いや改善点があれば、ぜひご連絡ください
   <br>（ページ下部のフィードバックフォームまたはGitHubコメント欄から）
 
